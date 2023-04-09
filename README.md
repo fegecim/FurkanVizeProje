@@ -4,4 +4,3 @@ NOTE 2:Bu projede kullandığım kütüphaneler:
 1-)JavaMail API: https://www.oracle.com/java/technologies/javamail-api.html 
 2-)Java Beans Activation: https://www.oracle.com/java/technologies/java-beans-activation.html#download
 
-NOTE 3:Github proje linkim:https://github.com/fegecim/VizeFurkan
