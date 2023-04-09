@@ -7,7 +7,7 @@ import java.util.Properties;
 import java.util.Scanner;
 
 public class UyeKayit {
-    static String path = "kullanıcılar2.txt"; // Üyelerin olacağı dosyanın ismi
+    static String path = "Kullanıcılar.txt"; // Üyelerin olacağı dosyanın ismi
     static File log = new File(path);//dosyamızı oluşturma işlemi
     static Scanner console = new Scanner(System.in);
     public static void main(String[] args) throws IOException//main class
@@ -283,8 +283,8 @@ class EPostaYolla {//e posta yollama kod işlemlerini barındıran class
 
     public static void mailGonder(String toMail,String body) {
         String alıcıEMail= toMail;
-        String gonderenEMail="ifurkangenc@hotmail.com";//Outlook kullandım.
-        String sifre="fenerbahcefurkan41";
+        String gonderenEMail="Bu kısma lütfen gönderici e mailinizi griniz";//Outlook veya hotmail.com uzantısı kullanılmalı.
+        String sifre="Bu kısma lütfen gönderici şifrenizi giriniz";
         Properties properties = System.getProperties();
         properties.put("mail.smtp.auth", "true");
         properties.put("mail.smtp.starttls.enable", "true");
